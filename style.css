@@ -1,0 +1,11 @@
+:root {
+  margin-top: 20px;
+}
+
+.transparent::before {
+  content: "| before |"; 
+}
+
+.transparent::after {
+  content: "| after |"; 
+}
